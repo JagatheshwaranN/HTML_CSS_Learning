@@ -22,16 +22,6 @@ body {
   margin: 50px;
 }
 
-.itm {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  border: 5px solid rgba(0, 0, 0, 0.05);
-  border-radius: 3px;
-  font-size: 35px;
-  background-color: var(--mildyellow);
-}
-
 .container {
   display: grid;
   grid-gap: 20px;
