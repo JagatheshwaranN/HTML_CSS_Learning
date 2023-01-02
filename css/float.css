@@ -1,0 +1,34 @@
+.block {
+  float: left;
+  width: 33.3%;
+  font-family: cursive;
+  text-align: center;
+}
+
+div#id1 {
+  width: 32%;
+  margin: 3px;
+  border-radius: 3px;
+  border: 3px solid red;
+  padding: 2px;
+}
+
+div#id2 {
+  width: 32%;
+  margin: 3px;
+  border-radius: 3px;
+  border: 3px solid green;
+  padding: 2px;
+}
+
+div#id3 {
+  width: 32%;
+  margin: 3px;
+  border-radius: 3px;
+  border: 3px solid blue;
+  padding: 2px;
+}
+
+.clear {
+  clear: both;
+}

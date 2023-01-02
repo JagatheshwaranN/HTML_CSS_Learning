@@ -1,0 +1,14 @@
+#id-demo {
+  background-color: pink;
+  margin: 50px;
+  border: 30px solid green;
+  padding: 20px;
+}
+
+.class-demo {
+  background-color: #d6d6c2;
+  margin: 50px;
+  border: 25px solid grey;
+  border-radius: 20px;
+  padding: 12.5px;
+}

@@ -1,0 +1,39 @@
+div{
+  background-color: aqua;
+  margin: 50px;
+  border: 20px solid grey;
+  padding: 12px;
+}
+.text-deco #p1 {
+  font-size: 20px;
+}
+.text-deco #p2 {
+  color: blue;
+}
+.text-deco #p3 {
+  font-style: italic;
+}
+.text-deco #p4 {
+  font-family: Tahoma;
+}
+.text-deco #p5 {
+  font-weight:bold;
+}
+.text-deco #p6 {
+  font-variant: small-caps;
+}
+.text-deco #p7 {
+  text-decoration: line-through;
+}
+.text-deco #p8 {
+  text-transform: capitalize;
+}
+.text-deco #p9 {
+  text-align: left;
+}
+.text-deco #p10 {
+  letter-spacing: 0.2em;
+}
+.text-deco #p11 {
+  word-spacing: 0.8em;
+}

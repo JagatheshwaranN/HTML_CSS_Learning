@@ -1,0 +1,17 @@
+.box1 {
+  width: 600px;
+  height: 400px;
+  border: 2px solid grey;
+  background-image: url('../img/design.png');
+  /*background-repeat: no-repeat;
+  background-size: cover;*/
+}
+
+.box2 {
+  width: 600px;
+  height: 400px;
+  border: 2px solid grey;
+  background-image: url('../img/house.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

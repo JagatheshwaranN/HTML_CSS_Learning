@@ -1,0 +1,38 @@
+.myform {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.myform .form-group {
+  padding-bottom: 10px;
+}
+
+.myform label {
+  display:block;
+}
+
+.myform input[type="text"],
+.myform input[type="email"],
+.myform textarea {
+  padding: 8px;
+  width: 40%;
+  font-family: Tahoma;
+}
+
+.button {
+  margin: 0.2em 0;
+  padding: 0 15px;
+  border: none;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 0.2em;
+  font-size: 0.80em;
+  color: white;
+  background: #32a852;
+}
+
+.button:hover {
+  background: #5ff707;
+  cursor: pointer;
+}

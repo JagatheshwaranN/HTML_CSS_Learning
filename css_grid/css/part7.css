@@ -1,0 +1,43 @@
+:root {
+  --mildyellow:#f2c041;
+  --black:#080600;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 10px;
+  color: var(--black);
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #6d77e8;
+  min-height: calc(100vh-100px);
+  margin: 50px;
+}
+
+.albums {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+}
+
+.album {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-gap: 10px;
+  align-items: start;
+}
+
+.album_artwork {
+  width: 100%;
+}

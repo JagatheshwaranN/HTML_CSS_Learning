@@ -1,0 +1,41 @@
+.categories {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.categories h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.categories ul {
+  padding: 0px;
+  list-style: none;
+}
+
+.categories a {
+  text-decoration: none;
+}
+
+.categories a:hover {
+  color: red;
+}
+
+.mylist {
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/*.mylist li:first-child {
+background: #00b33c;
+}*/
+
+.mylist li:nth-child(even){
+background-color: #b3ffb3;
+}
+
+.mylist li:nth-child(odd){
+background-color: #4dff4d;
+}
