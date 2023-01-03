@@ -2,7 +2,12 @@ body {
   background: rgba(0, 0, 0, 0.9);
   margin: 0;
   color: #FAF9A9;
-  font-family: 'Segoe UI';
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+  width: 400px;
+  height: 150px;
 }
 
 .showcase::after {
@@ -35,19 +40,18 @@ body {
   margin-left: -145px;
   width: 300px;
   text-align: center;
-  display: grid;
+  transition: all 1000ms;
+  display:grid;
   align-items: center;
   justify-content: center;
-  transition: all 1000ms;
 }
 
 .content .title {
-  font-size: 2.2rem;
-  text-align: center;
+  font-size: 2rem;
 }
 
 .content .text {
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 .container {
@@ -74,9 +78,19 @@ body {
   margin: auto;
 }
 
+.desc {
+  text-align: justify;
+}
+
 .bg-light {
   background: #f4f4f4;
-  color: #333333;
+  color: #333;
+  text-align: justify;
+}
+
+.bg-dark {
+  background: #333;
+  color: #f4f4f4;
 }
 
 footer {
@@ -85,4 +99,24 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+@media (max-width: 560px) {
+  .showcase::after {
+    height: 50vh;
+  }
+
+  .content {
+    top: 5%;
+    margin-top: 5px;
+  }
+
+  .grid-3,
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+
+  .services div {
+    padding: 1.2rem 1rem;
+  }
 }
