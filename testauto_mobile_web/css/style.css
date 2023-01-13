@@ -2,7 +2,8 @@
 
 :root {
  !--primary: #F7D358;
- --primary:#81F7BE;
+ !--primary: #81F7BE;
+ --primary: #00FFBF;
  --secondary: #FBF5EF;
 
 }
@@ -43,7 +44,7 @@ body {
   background: none;
   border: 2px solid var(--primary);
   color: var(--primary);
-  padding: 6px 12px;
+  padding: 8px 16px;
   border-radius: 15px;
   text-transform: capitalize;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
@@ -54,4 +55,87 @@ body {
 .wrk-btn:hover {
   color: #071914;
   background: var(--primary);
+}
+
+input, textarea {
+  background: (255, 255, 255, 0.5);
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: 2px solid #9893D8;
+  color: #f2f2f2;
+}
+
+#greeting, #skillset, footer {
+  background: #f2f2f2;
+  color: #01DFD7;
+}
+
+nav, #portfolio, #contactus {
+  color: #00FFBF;
+}
+
+h1, h2, h3, h4 {
+  font-weight: normal;
+  line-height: 1.5rem;
+}
+
+h1, h3 {
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+.leading {
+  font-size: 1.1rem;
+}
+
+#greeting p, #skillset p, #skillset li, footer p {
+  color: #0d086d;
+}
+
+#contactus p, #portfolio a, nav li, nav a {
+  color: #9893D8;
+  font-weight: 1rem;
+  line-height: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-gap: 10px;
+}
+
+.nav-site {
+    margin: 0 20px;
+}
+
+.nav-site ul {
+  display: none;
+}
+
+.nav-site h1 {
+  grid-column: 1/4;
+}
+
+#greeting {
+  padding: 0 20px 20px 20px;
+}
+
+.greeting-text {
+  grid-column: 1/6;
+}
+
+.greeting-img {
+  grid-column: 6/9;
+}
+
+.greet {
+  height: 400px;
+  width: 400px;
 }
