@@ -1,17 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 :root {
- !--primary: #F7D358;
- !--primary: #81F7BE;
- --primary: #00FFBF;
- --secondary: #FBF5EF;
+ --primary: #2EFEF7;
+ --secondary: #4000FF;
 
-}
-
-body{
-!--background: #EFFBFB;
-!--background: #FBFBEF;
-!--background: #FBF5EF;
 }
 
 body, a, ul, li, p {
@@ -31,8 +23,6 @@ body {
 }
 
 .img-tool{
-  !--width: 200px;
-  !--height: 200px;
   width: 100px;
   height: 100px;
 }
@@ -47,8 +37,7 @@ body {
   border: 2px solid var(--primary);
   color: var(--primary);
   padding: 8px 16px;
-  border-radius: 15px;
-  text-transform: capitalize;
+  border-radius: 12px;
   box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
   display: inline-block;
   font-weight: bolder;
