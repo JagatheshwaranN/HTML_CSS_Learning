@@ -32,6 +32,10 @@ body {
   height: 40px;
 }
 
+.hilite {
+  color: #DF01D7;
+  font-weight: bold;
+}
 .wrk-btn , .snd-btn {
   background: none;
   border: 2px solid var(--primary);
@@ -83,17 +87,17 @@ h4 {
 }
 
 .leading {
-  font-size: 1.1rem;
+  font-size: 1.0rem;
 }
 
-#greeting p, #skillset p, #skillset li, footer p {
-  color: #0d086d;
+#greeting p, #skillset li, #skillset p, footer p {
+  color: #4000FF;
 }
 
 #contactus p, #portfolio a, nav li, nav a {
-  color: #9893D8;
-  font-weight: 1rem;
-  line-height: 1.5rem;
+  color: #00FFBF;
+  font-weight: 1.0rem;
+  line-height: 1.2rem;
 }
 
 .grid {
@@ -122,6 +126,9 @@ h4 {
   grid-column: 1/6;
 }
 
+.greeting-text h2 {
+  color: #4000FF;
+}
 .greeting-img {
   grid-column: 6/9;
 }
@@ -163,6 +170,7 @@ h4 {
 
 #skillset h3 {
 text-align: center;
+color: #4000FF;
 }
 
 #skillset ul {
@@ -200,6 +208,9 @@ text-align: center;
 #contactus input, #contactus textarea {
   width: 100%;
   margin: 10px 0;
+  background: #9F81F7;
+  !--background: #BCA9F5;
+  font-family: 'Rubik';
 }
 
 footer .cpy-rgt {
