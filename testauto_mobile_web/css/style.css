@@ -57,7 +57,7 @@ input, textarea {
   padding: 10px 16px;
   border-radius: 12px;
   border: 2px solid #9893D8;
-  color: #f2f2f2;
+  color: #ffffff;
 }
 
 #greeting, #skillset, footer {
@@ -116,6 +116,10 @@ h4 {
 
 .nav-site h1 {
   grid-column: 1/4;
+}
+
+.nav-site a {
+  font-size: 1.1rem;
 }
 
 #greeting {
@@ -189,6 +193,10 @@ color: #4000FF;
   margin: 10px auto;
 }
 
+#skillset h4, #portfolio h4 {
+  font-size: 1.1rem;
+}
+
 #contactus {
   margin: 30px 20px;
 }
@@ -208,8 +216,8 @@ color: #4000FF;
 #contactus input, #contactus textarea {
   width: 100%;
   margin: 10px 0;
-  background: #9F81F7;
-  !--background: #BCA9F5;
+  !--background: #9F81F7;
+  background: #A9BCF5;
   font-family: 'Rubik';
 }
 
@@ -277,7 +285,8 @@ body {
 }
 
 #greeting {
-  padding-bottom: 40px;
+  padding-bottom: 0px;
+  padding-top: 5px;
 }
 
 .projects a {
@@ -298,7 +307,7 @@ body {
 }
 }
 
-@media screen and (min-width: 960px) {
+@media screen and (max-width: 520px) {
   body {
     font-size: 20px;
   }
@@ -306,4 +315,36 @@ body {
   .grid {
     max-width: 100%;
   }
+
+  #greeting {
+    padding-bottom: 0px;
+    padding-top: 5px;
+  }
+
+  .greeting-img {
+    margin: 5px;
+    width: 100%;
+  }
+
+  .img-tool{
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .img-project {
+    height: 200px;
+    width: 200px;
+  }
+
+  #skillset li h4 {
+    font-size: 0.9rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .greeting-text p {
+    margin-bottom: 15px;
+  }
+
 }
