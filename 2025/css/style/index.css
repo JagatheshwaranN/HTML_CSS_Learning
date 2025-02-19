@@ -1,0 +1,37 @@
+/* The below complete structure is called as RuleSet
+    P is a selector
+    color is a property
+    green is a value
+    color: green is a declaration
+*/
+body {
+    font-size: 16px;
+}
+
+p {
+    color: purple;
+}
+
+.gray {
+    color: gray;
+    font-style: oblique;
+}
+
+/* Avoid using the ID selectors */
+#second {
+    color: palevioletred;
+}
+
+h1, h2 {
+    color: blueviolet;
+}
+
+/* Its not good practice */
+p span {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.highlight {
+    font-family: 'Courier New', Courier, monospace;
+}
