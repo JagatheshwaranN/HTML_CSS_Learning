@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* It will take the content size to the provided value.
+    It will not accomodate the margin and padding. The
+    margin and padding will require extra spacing. */
+    /* box-sizing: content-box; */
+
+    /* It will ajust the content, margin and padding
+    values as per the updated value */
+    box-sizing: border-box;
+}
+.container {
+    /* The below unit is not recommended as it doesn't work with
+    browser settings update */
+    /* font-size: 16px; */
+    /* We can use the px units for borders */
+    border: 2px dotted maroon;
+    /* width: 400px; */
+    font-size: 1.5rem;
+    /* margin: 0.5em; */
+    /* margin-top: 1.5em;
+    margin-right: 2em;
+    margin-bottom: 3em;
+    margin-left: 4em; */
+    /* margin: 1.5em 2em 3em 4em; */
+    margin: 2em 4em;
+    /* padding: 0.5em; */
+    padding: 2em 3em;
+}

@@ -14,14 +14,17 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     border: 2px solid green;
-    background-color: whitesmoke;
-    color: red;
+    background-color: #ACC8E5;
+    color: #472121;
 }
 
 p {
     /* Transaparency */
-    /* color: rgba(0, 0, 255, 0.5); */
-    color: #000000;
+    /* color: rgba(0, 0, 255, 1); */
+    /* color: #000000; */
+    /* color: #000; - Short Form */
+    /* color: #00FF00; */
+    color: #112A46;
 }
 
 

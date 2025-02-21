@@ -1,0 +1,52 @@
+* {
+    /* Not Recommended - Only for learning - Overriding the 
+    default margin & padding properties */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header {
+    width: 50%;
+} */
+
+h1 {
+    /* The below unit is not recommended as it doesn't work with
+    browser settings update */
+    /* font-size: 16px; */
+    /* We can use the px units for borders */
+    border: 2px dotted maroon;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+body {
+    /* height: 100vh; */
+    min-height: 100vh;
+    width: 100vw;
+}
+
+main {
+    /* When we set the value as 2rem, it will be updated
+    as 2 * 16 px (default) which is 32 px */
+    /* font-size: 2rem; */
+    font-size: 1rem;
+    background-color: aqua;
+    /* Allows to specify the width of viewport */
+    /* width: 50vw; */
+    /* Recommended - Similar result as above property */
+    /* width: 75%; */
+}
+
+p {
+    /* When we set the value as 2em, it will be updated
+    as  ((2 * 16  px) * 2) (default) which is 64 px */
+    /* Basically, this em refers to the parent element and
+    not ROOT but the parent refers to  ROOT*/
+    font-size: 1em;
+    /* The below ch property is used to shrink the paragraph
+    into next line after showing / hacving 50 chars in
+    first line.. */
+    width: 50ch;
+}
