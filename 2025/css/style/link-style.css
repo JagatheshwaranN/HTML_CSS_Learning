@@ -1,0 +1,22 @@
+body {
+    padding: 5%;
+    font-size: 1rem;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: aquamarine;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:active {
+    color: green;
+}
+
+a:hover {
+    color: purple;
+}

@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="author" content="Jaga" />
     <title>CSS Learning</title>
-    <link rel="stylesheet" href="./style/box-model.css" type="text/css" />
+    <!-- <link rel="stylesheet" href="./style/box-model.css" type="text/css" /> -->
+    <!-- <link rel="stylesheet" href="./style/typography.css" type="text/css" /> -->
+    <link rel="stylesheet" href="./style/link-style.css" type="text/css" />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> -->
     <!-- Internal CSS is also not widely used -->
     <!-- <style>
             p {
@@ -20,14 +23,15 @@
     </header>
     <main class="container">
       <article>
-        <h2>Earn Money</h2>
+        <p>Welcome to the <a href="index.html">CSS Learning</a></p>
+        <h2><a href="earn.html">Earn Money</a></h2>
         <p>
           Focus and learn the tools & technologies to develop your skill and
           earn money.
         </p>
       </article>
       <article>
-        <h2>Grow Money</h2>
+        <h2><a href="grow.html">Grow Money</a></h2>
         <p id="second" class="gray">
           Rightly invest your earned money in Socket Market, Mutual Funds to
           <span class="highlight">grow</span> money.
@@ -40,7 +44,14 @@
           <span class="highlight">help</span> others. Make the society a good
           place for future generations.
         </p>
+        <div class="circle"></div>
+        <!-- <form>
+          <lable for="name">Name: </lable>
+          <input type="text" id="name" name="name" placeholder="Your Name"/>
+          <button type="button">Submit</button>
+        </form> -->
       </article>
     </main>
   </body>
+  <!-- https://cssbootcamp.com/css/specificity-calculator -->
 </html>

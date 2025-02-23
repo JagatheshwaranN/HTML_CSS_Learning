@@ -15,7 +15,13 @@
     browser settings update */
     /* font-size: 16px; */
     /* We can use the px units for borders */
-    border: 2px dotted maroon;
+    /* border: 2px dotted maroon;
+    border-top-width: 7px;
+    border-top-color: green;
+    border-right: 5px solid blue; */
+    border: 10px double red;
+    /* outline: 5px solid blue;
+    outline-offset: 10px; */
     /* width: 400px; */
     font-size: 1.5rem;
     /* margin: 0.5em; */
@@ -24,7 +30,22 @@
     margin-bottom: 3em;
     margin-left: 4em; */
     /* margin: 1.5em 2em 3em 4em; */
-    margin: 2em 4em;
+    margin: 2em;
     /* padding: 0.5em; */
-    padding: 2em 3em;
+    padding: 2em;
+}
+
+.circle {
+    border: 5px solid green;
+    width: 100px;
+    height: 100px;
+    /* The prop will set the margin property but box is not aligned  */
+    /* margin: 2em; */
+    /* The prop will set the margin property and als box is aligned center */
+    margin: 2em auto;
+    outline: 5px dotted black;
+    outline-offset: 10px;
+    border-radius: 50px;
+    background-color: yellow;
+
 }
