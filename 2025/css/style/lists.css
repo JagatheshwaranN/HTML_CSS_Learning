@@ -1,0 +1,41 @@
+body {
+    padding: 5%;
+    font-size: 1rem;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+
+ul {
+    list-style-type: square;
+    text-align: left;
+    /* To have the bulletins away from the text */
+    /* list-style-position: outside; */
+    /* To have the bulletins along from the text */
+    list-style-position: inside;
+    /* list-style-image: url(../asset/tick.png); */
+    /* list-style - short form to have multiple values in single line. */
+}
+
+li {
+    color: blue;
+}
+
+ul li {
+    color: blueviolet;
+}
+
+ul li:nth-child(2) {
+    color: palevioletred;
+}
+
+::marker {
+    color: brown;
+    
+}
+
+ul li::marker {
+    font-size: 2em;
+    content: "Choice >>";
+}

@@ -19,4 +19,6 @@ a:active {
 
 a:hover {
     color: purple;
+    /* Opacity is for transparency of the color. In General dimming the color. */
+    opacity: 0.5;
 }
